@@ -1,0 +1,62 @@
+const getSleepHours = day => {
+  if (day === 'monday') {
+    return 7;
+  } else if (day === 'tuesday') {
+    return 6;
+  } else if (day === 'wednesday') {
+    return 7;
+  } else if (day === 'thursday') {
+    return 7;
+  } else if (day === 'friday') {
+    return 9;
+  } else if (day === 'saturday') {
+    return 7;
+  } else if (day === 'sunday') {
+    return 8;
+  } else {
+    return 'Please type a valid day (check spelling!)';
+  }
+};
+
+const getActualSleepHours = () => {
+ return getSleepHours('monday') + getSleepHours('tuesday') + getSleepHours('wednesday') + getSleepHours('thursday') + getSleepHours('friday') + getSleepHours('saturday') + getSleepHours('sunday');
+};
+
+const getIdealSleepHours = () => {
+  const idealHours = 8;
+  return idealHours * 7; 
+};
+
+const calculateSleepDebt = () => {
+  const actualSleepHours = getActualSleepHours();
+  const idealSleepHours = getIdealSleepHours();
+  if (actualSleepHours === idealSleepHours) {
+    console.log('You have got the perfect amount of sleep'+ ' you have slept' + ( idealSleepHours - actualSleepHours));
+  } else if (actualSleepHours > idealSleepHours) {
+    console.log('You have got more sleep than needed'+ ' you have slept' + ( idealSleepHours - actualSleepHours));
+  } else {
+    console.log('You should get some rest'+ ' you have slept ' + (idealSleepHours - actualSleepHours)+ ' hours less than needed');
+  }
+};
+
+calculateSleepDebt();
+
+
+/*
+const getActualSleepHours = () => 7 + 6 + 7 + 7 + 9 + 7 + 8;
+
+const getIdealSleepHours = idealHours => idealHours * 7;
+
+cosnt calculateSleepDebt = () => {
+  const idealSleepHours = getIdealSleepHours(8);
+  const actualSleepHours = getActualSleepHours();
+  if (actualSleepHours === idealSleepHours) {
+    console.log('You have got the perfect amount of sleep'+ ' you have slept' + ( idealSleepHours - actualSleepHours));
+  } else if (actualSleepHours > idealSleepHours) {
+    console.log('You have got more sleep than needed'+ ' you have slept' + ( idealSleepHours - actualSleepHours));
+  } else {
+    console.log('You should get some rest'+ ' you have slept ' + (idealSleepHours - actualSleepHours)+ ' hours less than needed');
+  }
+};
+
+*/
