@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" type="text/css" rel="stylesheet">
+    <link href="C:\Users\Harold\Box\HZ Web development\Projects\Project-4 Web Design System\website-design-system-starting\starting\styles.css" rel="stylesheet">
+    <title>HZ Style Guide</title>
+
+</head>
+<body>
+    <header>
+        <h1>My Website Style Guide</h1>
+    </header>
+    <!-- Main containers-->
+    <div class="container">
+        <h2>Colors</h2>
+        <div class="color-container1">
+            <div class="color-container-large">
+                <p class="color-label">Lavender</p>
+                <div class="color-container-lavender">
+                    <p class="color-container-code">#6F9CEB</p>
+                </div>
+            </div>
+            <div class="color-container-small">
+                <p class="color-label">Medium Lavender</p>
+                <div class="color-container-medium-lavender">
+                 <p class="color-container-code">#97B7F0</p>
+                </div>
+            </div>
+            <div class="color-container-small">
+                <p class="color-label">Pale Lavender</p>
+                <div class="color-container-pale-lavender">
+                    <p class="color-container-code">#B2CAF3</p>
+                </div>
+            </div>
+       </div>
+       <div class="color-container2">
+            <div class="color-container-large">
+                <p class="color-label">Queen Blue</p>
+                <div class="color-container-queenblue">
+                    <p class="color-container-code">#456990</p>
+                </div>
+            </div>
+            <div class="color-container-small">
+                <p class="color-label">Snow</p>
+                <div class="color-container-snow">
+                    <p class="color-container-code">#FAFAFA</p>
+                </div>
+            </div>
+            <div class="color-container-small">
+                <p class="color-label">Dark Grey</p>
+                <div class="color-container-darkgrey">
+                    <p class="color-container-code">#5E5E5E</p>
+                </div>
+            </div>
+        </div>
+        <div class="color-container3">    
+            <div class="color-container-large">
+                <p class="color-label">Aqua</p>
+                <div class="color-container-aqua">
+                    <p class="color-container-code">#47DEB1</p>
+                </div>
+            </div>
+            <div class="color-container-small">
+                <p class="color-label">Success</p>
+                <div class="color-container-success">
+                    <p class="color-container-code">#34AA4F</p>
+                </div>
+            </div>
+            <div class="color-container-small">
+                <p class="color-label">Grey</p>
+                <div class="color-container-grey">
+                    <p class="color-container-code">#BFBFBF</p>
+                </div>
+            </div>
+        </div>
+        <div class="color-container4">    
+            <div class="color-container-large">
+                <p class="color-label">Sand</p>
+                <div class="color-container-sand">
+                    <p class="color-container-code">#FFDF66</p>
+                </div>
+            </div>
+            <div class="color-container-small">
+                <p class="color-label">Warning</p>
+                <div class="color-container-warning">
+                    <p class="color-container-code">#EFA976</p>
+                </div>
+            </div>
+            <div class="color-container-small">
+                <p class="color-label">Alert</p>
+                <div class="color-container-alert">
+                    <p class="color-container-code">#EF767A</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!-- Container for Fonts and Text Styles-->
+    <br>
+    <div class="container">
+        <h2>Fonts and Text Styles</h2>
+        <div class="font-container">
+            <h3 class="font-name">Monserrat Bold</h3>
+            <p class="font-use-title-h1">Unique title on landing page</p>
+            <p class="font-use-title-h2">Secondary title on landing page</p>
+            <p class="font-use-title-h3">Main title - used in forms and back office pages</p>
+            <p class="font-use-title-h4">Used for paragraph titles</p>
+        </div>
+        <div class="font-container">
+            <h3 class="font-name">Avenir Heavy/Medium</h3>
+            <p class="font-use-copy">This font is used to write copy</p>
+        </div>
+    </div>
+</body>
+</html>
