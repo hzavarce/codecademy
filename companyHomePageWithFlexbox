@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <header>
+        <img class="logo" src="assets\group-22.png" alt="logo" />
+        <nav>
+          <ul class="nav__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Hero -->
+      <div class="hero">
+        <h1>Democratizing Finance</h1>
+        <p>Send money to your family, Easy, Fast and Secure!</p>
+        <a href="#" class="button">Join Us!</a>
+      </div>
+
+      <!-- Mission -->
+
+      <div class="mission-header">
+        <h2>Our mission</h2>
+      </div>
+      <div class="mission-statement">
+        <img class="mission-img" src="assets\group-18.png" />
+        <p>
+          We are a passionate group of innovators dedicated to deliver access to
+          finance for all humans. Our platform will allow you to have access to
+          basic financial tools, and all you need to start is your email!
+          <br />
+          <br />
+          <a href="#"> More about us</a>
+        </p>
+      </div>
+
+      <!-- Features -->
+
+      <h2 class="features-header">Our Features</h2>
+
+      <div class="features">
+        <div class="deposit">
+          <img src="assets\group-17.png" />
+          <h3>Add funds to your account</h3>
+          <p>
+            You can deposit: USD$, VES, and digital assets like BTC, ETH, and
+            DAI.
+          </p>
+          <a href="#" class="button">Deposit</a>
+        </div>
+
+        <div class="exchange">
+          <img src="assets\group-19.png" />
+          <h3>Convert your crypto</h3>
+          <p>
+            After you have funds in your account you will be able to convert
+            them to any of our supported digital assets or local currencies
+          </p>
+          <a href="#" class="button">Exchange</a>
+        </div>
+
+        <div class="transfer">
+          <img src="assets\group-20.png" />
+          <h3>Transfer to other FuroFi users</h3>
+          <p>
+            Use their email or username and funds will be there in seconds!
+            Without hidden fees or surprises
+          </p>
+          <a href="#" class="button">Transfer</a>
+        </div>
+
+        <div class="withdraw">
+          <img src="assets\group-copy-2.png" />
+          <h3>Withdraw your crypto</h3>
+          <p>
+            We believe that your funds are yours and with that in mind you are
+            able to withdraw your digital assets when you want it, in a secure
+            way!
+          </p>
+          <a href="#" class="button">Withdraw</a>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-logo">
+          <img src="assets\group-4.png" />
+        </div>
+        <div class="about-us">
+          <h4>About us</h4>
+          <ul>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+
+        <div class="contact-us">
+          <h4>Contact us</h4>
+          <ul>
+            <li>FAQ</li>
+            <li>Support Center</li>
+            <li>support@atmgo.io</li>
+          </ul>
+        </div>
+
+        <div class="social">
+          <h4>Social</h4>
+          <ul>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Facebook</li>
+          </ul>
+        </div>
+      </footer>
+    </body>
+  </html>
+</html>
+
+
+
+
+---------------------------------------------------------------------
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+/* General Rules */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 31px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+}
+
+/*Nav bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 1%;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  height: 250px;
+  background-color: #6f9ceb;
+}
+
+.hero h1 {
+  width: 716px;
+  height: 55px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -0.64px;
+  text-align: center;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.hero p {
+  width: 458px;
+  height: 25px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.button {
+  width: 183px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #47deb1;
+  background: #47deb1;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: -0.18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Mission */
+
+.mission-header h2 {
+  width: 1024px;
+  height: 51px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: -0.5px;
+  display: flex;
+  justify-content: center;
+  color: #606060;
+}
+
+.mission-statement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mission-statement img {
+  width: 350px;
+  height: 350px;
+}
+
+.mission-statement p {
+  width: 445px;
+  height: 165px;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: -0.18px;
+  color: #606060;
+  text-align: center;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+/* Features */
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  align-content: space-between;
+  width: 450px;
+}
+
+.features-header {
+  width: auto;
+  height: 51px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: -0.5px;
+  display: flex;
+  justify-content: center;
+  color: #606060;
+}
+
+.deposit {
+  width: 300px;
+  margin-left: 100px;
+  margin-right: auto;
+  height: auto;
+}
+
+.exchange {
+  width: 300px;
+  height: auto;
+  margin-left: 650px;
+}
+
+.transfer {
+  width: 300px;
+  margin-left: 100px;
+  margin-right: auto;
+  height: auto;
+}
+
+.withdraw {
+  width: 300px;
+  height: auto;
+  margin-left: 650px;
+}
+
+.features a.button {
+  margin: auto;
+}
+
+/*Footer */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: auto;
+  height: auto;
+  min-height: 110px;
+}
+
+.footer-logo {
+  align-self: flex-start;
+}
+
