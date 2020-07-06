@@ -1,18 +1,18 @@
 const team = {
   _players: [
     {
-      firstName: 'Melissa' ,
-      lastName: 'von Holstein',
+      firstName: 'Mel' ,
+      lastName: 'von Hol',
       age: 29
     },
     {
       firstName: 'Harry' ,
-      lastName: 'Zavarce',
+      lastName: 'Zav',
       age: 37
     },
     {
-      firstName: 'Niko' ,
-      lastName: 'Amici',
+      firstName: 'Nio' ,
+      lastName: 'Am',
       age: 6
     }
   ],
